@@ -1,0 +1,28 @@
+.card{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+    
+
+}
+.cards_element{
+    width: 250px;
+    height: 350px;
+    padding: 20px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    border: 1px solid rgb(179, 148, 148);
+    background-color: rgb(166, 123, 123);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: start;
+
+}
+
+img{
+    width: 150px;
+    height: 220px;
+}
